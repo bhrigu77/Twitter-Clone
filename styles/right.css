@@ -1,0 +1,171 @@
+
+.right-outer-box{
+  position: relative;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+}
+
+.search-box{
+  position: fixed;
+  display: flex;
+  top: 5px;
+  left: 1070px;
+}
+
+.twitter-search{
+  width: 300px;
+  height: 33px; 
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 0.1px;
+  border-radius: 30px;
+  padding-left: 45px;
+  background-color: rgb(245, 245, 245);
+}
+
+
+.twitter-search::placeholder{
+  font-size: 16px;
+}
+
+
+.twitter-search:active{
+  outline-color: rgb(29, 155, 240);
+  outline-width: 0.1px;
+}
+
+
+.fa {
+  position: absolute;
+  left: 20px;
+  top: 12.5px;
+  z-index: 999;
+}
+
+
+
+.get-verified-box,
+.trending-box{
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  width: 340px;
+  border-radius: 15px;
+  margin-top: 55px;
+  margin-left: 35px;
+  background-color: rgb(245, 245, 245);
+}
+
+.trending-box{
+  margin-top: 20px;
+  padding: 0;
+}
+
+.line1-text,
+.line1-trending-text{
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.line1-trending-text{
+  padding-bottom: 14px;
+  padding-left: 14px;
+  padding-top: 14px;
+}
+
+.line2-text{
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+.get-verified-button{
+  padding: 8.5px 22px 8.5px 22px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+
+}
+
+.get-verified-button:hover{
+  opacity: 0.9;
+}
+
+.get-verified-button:active{
+  opacity:0.8;
+}
+
+.trending {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.trending:hover {
+  background-color: rgb(185, 185, 185)
+}
+
+.trending:active {
+  opacity: 0.6;
+}
+
+
+.trending-leftbox{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.trending-leftbox-line1,
+.no-of-tweets{
+  color: rgb(134, 130, 130);
+  font-size: 13px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+
+
+.trending-leftbox-line2-span{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.trending-leftbox-line2{
+  margin-bottom: 8px;
+}
+
+
+.threedots-pic{
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+
+
+.threedots-pic:hover{
+  background-color: rgb(112, 101, 101);
+}
+
+.threedots-pic:active{
+  opacity: 0.8;
+} 
+
+
